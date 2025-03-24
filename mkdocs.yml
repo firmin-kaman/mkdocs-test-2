@@ -1,0 +1,33 @@
+# mkdocs.yml
+site_name: Mon Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+
+# Configuration multi-langues/versions
+extra:
+  versions:
+    - name: Arender 1
+      link: /arender-1/
+    - name: Arender 2
+      link: /arender-2/
+
+# Configuration pour GitHub Pages
+site_url: https://votrenom.github.io/votrerepo/
+repo_url: https://github.com/votrenom/votrerepo
+repo_name: votrenom/votrerepo
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date
+
+# Structure de documentation
+nav:
+  - Accueil: index.md
+  - Arender 1:
+      - Présentation: arender-1/index.md
+  - Arender 2:
+      - Présentation: arender-2/index.md
