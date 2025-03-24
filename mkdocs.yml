@@ -15,9 +15,9 @@ extra:
       link: /arender-2/
 
 # Configuration pour GitHub Pages
-site_url: https://votrenom.github.io/votrerepo/
-repo_url: https://github.com/votrenom/votrerepo
-repo_name: votrenom/votrerepo
+site_url: https://firmin-kaman.github.io/mkdocs-test-2/
+repo_url: https://github.com/firmin-kaman/mkdocs-test-2
+repo_name: firmin-kaman/mkdocs-test-2
 
 # Plugins
 plugins:
